@@ -9,6 +9,8 @@ def countdown(number)
 end
 
 def countdown_with_sleep(number)
-  while
+  while number < 50 do
+    number += 1
+  end
   
 end
